@@ -30,13 +30,14 @@ namespace WordsPhrases
         {
             get
             {
-                return this.text;
+                return this.text.Trim();
             }
 
             set
             {
-                this.text = value;
+                this.text = value.Trim();
             }
+
         }
     }
 }
